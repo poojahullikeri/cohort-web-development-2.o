@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card img{
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.card h2{
+    text-align: center;
+    font-size: 40px;
+    
+}
+/* .card i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    opacity: 0;
+    background-clip: text;
+    color:transparent;
+    -webkit-background-clip: text;
+    
+    background: linear-gradient( to right bottom , pink, rgb(255,11,222));
+    transition: all  cubic-bezier(0.75, 0.99, 0.64, 1.18)0.5s;
+    transform: translate(-50%,-50%) scale(0) rotate(-60deg);
+
+    
+    
+
+} */
+
+.card i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 90px;
+    opacity: 1; /* make it visible */
+    color: rgb(232, 73, 126); /* solid pink color for the icon */
+    background: transparent; /* transparent background */
+    transition: all 0.5s cubic-bezier(0.75, 0.99, 0.64, 1.18);
+    transform: translate(-50%, -50%) scale(0) rotate(-60deg);
+}
+
