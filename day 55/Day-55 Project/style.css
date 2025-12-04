@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.balls{
+    display: flex;
+    gap: 20px;
+    border: 3px solid white;
+}
+
+.ball{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    transition: all 0.3s linear;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: peru;
+}
+.blue{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+
+.balls:has(.red){
+    background-color: plum;
+}
+.anchor img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
